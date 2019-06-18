@@ -2,6 +2,9 @@
 
 library-web-app https://github.com/veffhz/library-web-app
 
+##### install requirements
+
+```pip3 install -r requirements.txt```
 
 ##### install chrome driver:
 
@@ -19,4 +22,4 @@ sudo chmod +x /usr/bin/chromedriver
 ```
 
 ##### run login test:
-```python3 login_test.py ```
+```pytest login_test.py```
