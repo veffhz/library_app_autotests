@@ -23,3 +23,6 @@ sudo chmod +x /usr/bin/chromedriver
 
 ##### run login test:
 ```pytest login_test.py```
+
+##### run author test:
+```pytest author_test.py```
